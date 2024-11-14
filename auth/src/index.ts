@@ -12,6 +12,7 @@ const start = async () => {
   }
 
   try {
+    //yashsm01/OhnsGzlF0MeejzMU
     await mongoose.connect(process.env.MONGO_URI);
     console.log('Connected to MongoDb');
   } catch (err) {
