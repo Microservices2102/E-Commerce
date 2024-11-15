@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: rallycoding/payments
+          image: yashsm02/payments
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
